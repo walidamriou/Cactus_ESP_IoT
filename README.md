@@ -1,8 +1,22 @@
 # WalidAmriou ESP IoT
 Library of reusable components for Espressif IoT Development Framework
 
-### Website
-https://www.walidamriou.com
+#### Development notes
+- If you start a new Platformio project, use:
+```bash
+# put this line in platformio.ini :
+monitor_speed = 115200 
+# edit the CONFIG_ESP_HTTPS_SERVER_ENABLE line in sdkconfig to:
+CONFIG_ESP_HTTPS_SERVER_ENABLE=y
+# to fix could not open port /dev/ttyUSB0: [Errno 13] Permission denied: '/dev/ttyUSB0', open terminal and write:
+sudo chmod a+rw /dev/ttyUSB0
+```
+
+### If you need any help or information:
+:large_blue_circle:	 Facebook: https://www.facebook.com/walidamriou   
+:large_blue_circle:  Twitter: https://twitter.com/walidamriou    
+:large_blue_circle:  Linkedin: https://www.linkedin.com/in/walidamriou  
+:red_circle: Email:  contact [at] walidamriou [dot] com    
 
 ### Copyright CC 2020 Walid Amriou
 
@@ -23,4 +37,4 @@ __Under the following terms:__
 
 the software or Code or Scripts or any files in this source is provided "as is" and the author disclaims all warranties with regard to this files including all implied warranties of merchantability and fitness. in no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software or code or scripts or any files in this source.
 
-The logo and the name of the project are owned by Walid Amriou, and do not fall under the open license for reconstruction, it must be preserved in full without modification. 
+© The logo and the name and ideas of the project are owned by __Walid Amriou__, and do not fall under the open license for reconstruction, it must be preserved in full without modification. 
