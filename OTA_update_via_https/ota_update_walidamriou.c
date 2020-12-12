@@ -9,8 +9,8 @@ Last update: July 2020
 #include <wifi_info.h>
 #include <wifi.h>
 
-#include <update_info.h>
-#include <update.h>
+#include <ota_update_info_walidamriou.h>
+#include <ota_update_walidamriou.h>
 
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
