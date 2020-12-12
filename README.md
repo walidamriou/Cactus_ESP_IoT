@@ -1,6 +1,13 @@
 # WalidAmriou ESP IoT
 Library of reusable components for Espressif IoT Development Framework
 
+#### Folders
+* HTTPS_server
+* OTA_update_via_https
+* WiFi
+     * Connect_to_WiFi_Access_Point
+     * Create_WiFi_Access_Point 
+
 #### Development notes
 - If you start a new Platformio project, use:
 ```bash
